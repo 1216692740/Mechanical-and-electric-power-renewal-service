@@ -26,17 +26,19 @@
                  Text="进入官方服务器" EventType="启动游戏" EventData="机械与电力|w38552s089.zicp.vip:42002" />
         <local:MyButton Margin="0,8,0,10" Width="250" Height="35"
                  Text="进入官方服务器（备用线路）" EventType="启动游戏" EventData="机械与电力|	mcrvr.e2.luyouxia.net:24758" />
+        <TextBlock Margin="0,0,0,4" TextWrapping+"Wrap"
+                 Text=我们即将上线PCL联机线路（因为PCL联机线路的不稳定性，可能会鸽）>
     </StackPanel>
 </local:MyCard>
 
 <local:MyCard Title="机械与电力版本详细信息" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,45,23,15">
         <TextBlock Margin="0,0,0,4"
-            Text="发行版本：Beta 0.2.0"/>
+            Text="发行版本：Beta 0.3.0"/>
         <TextBlock Margin="0,0,0,4"
             Text="更新渠道：Beta预览渠道（公测渠道）"/>
         <TextBlock Margin="0,0,0,4"
-            Text="Custom.xaml版本：Beta0.2.0"/>
+            Text="Custom.xaml版本：Beta0.3.0"/>
     </StackPanel>
 </local:MyCard>
 
