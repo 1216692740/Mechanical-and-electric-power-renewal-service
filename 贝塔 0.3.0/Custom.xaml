@@ -26,7 +26,7 @@
                  Text="进入官方服务器" EventType="启动游戏" EventData="机械与电力|w38552s089.zicp.vip:42002" />
         <local:MyButton Margin="0,8,0,10" Width="250" Height="35"
                  Text="进入官方服务器（备用线路）" EventType="启动游戏" EventData="机械与电力|	mcrvr.e2.luyouxia.net:24758" />
-        <TextBlock Margin="0,0,0,4" TextWrapping+"Wrap"
+        <TextBlock Margin="0,0,0,4" TextWrapping="Wrap"
                  Text=我们即将上线PCL联机线路（因为PCL联机线路的不稳定性，可能会鸽）>
     </StackPanel>
 </local:MyCard>
