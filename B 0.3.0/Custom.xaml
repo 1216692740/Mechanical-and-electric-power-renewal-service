@@ -1,7 +1,7 @@
 ﻿
 <local:MyCard Title="为什么主页加载这么慢？" Margin="0,0,0,15" CanSwap="True">
     <StackPanel Margin="25,45,23,15">
-        <TextBlock Margin="0,0,0,4" TextWrapping="Wrap"。
+        <TextBlock Margin="0,0,0,4" TextWrapping="Wrap"
             Text="目前主页自动更新服务托管在GitHub上（作者没钱买FTP站点），所以加载慢很正常，从地图上看中国西部直接访问不了。"/>
         <TextBlock Margin="0,0,0,4" TextWrapping="Wrap"
             Text="你可以在云盘下载最新的主页文件放在PCL文件夹中，然后按F12解锁全部选项，然后到-->设置-->个性化-->自定义主页中将联网更新修改为本地文件即可。"/>
