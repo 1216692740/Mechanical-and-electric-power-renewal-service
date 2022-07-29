@@ -1,0 +1,44 @@
+﻿
+<local:MyCard Title="LittleSkin登录帮助" Margin="0,0,0,15" CanSwap="True">
+    <StackPanel Margin="25,45,23,15">
+        <TextBlock Margin="0,0,0,4" TextWrapping="Wrap"
+            Text="使用LittleSkin登录登录验证是为了官方的多人服务器游戏所准备的，如果你加入了公测，你就可以在这个条目的下方看到服务器多人游戏了"/>
+        <TextBlock Margin="0,0,0,4" TextWrapping="Wrap"
+            Text="第一步：点击启动器的注册账号按钮"/>
+        <TextBlock Margin="0,0,0,4" TextWrapping="Wrap"
+            Text="按要求填写好信息后登录"/>
+        <TextBlock Margin="0,0,0,4" TextWrapping="Wrap"
+            Text="第二步：创建角色（摘自官方教程）"/>
+        <TextBlock Margin="0,0,0,4" TextWrapping="Wrap"
+            Text="1. 点击用户中心左侧菜单栏中的「角色管理」，在打开的页面中点击「添加新角色」"/>
+        <Image HorizontalAlignment="Center" Source="https://manual.littlesk.in/assets/img/open-page.80d66b77.png" />
+        <TextBlock Margin="0,0,0,4" TextWrapping="Wrap"
+            Text="2. 在弹出的窗口中输入你的角色名，点击「提交」按钮："/>
+        <Image HorizontalAlignment="Center" Source="https://manual.littlesk.in/assets/img/input-player-name.9148e724.png" />
+         <TextBlock Margin="0,0,0,4" TextWrapping="Wrap"
+            Text="第三步：返回启动器，输入账号信息，点击启动游戏即可登录"/>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="服务器多人游戏" Margin="0,0,0,15" CanSwap="True">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyButton Margin="0,8,0,10" Width="250" Height="35"
+                 Text="进入官方服务器" EventType="启动游戏" EventData="机械与电力|w38552s089.zicp.vip:42002" />
+        <local:MyButton Margin="0,8,0,10" Width="250" Height="35"
+                 Text="进入官方服务器（备用线路）" EventType="启动游戏" EventData="机械与电力|	mcrvr.e2.luyouxia.net:24758" />
+        <TextBlock Margin="0,0,0,4" TextWrapping="Wrap"
+                 Text="我们即将上线PCL联机线路（因为PCL联机线路的不稳定性，可能会鸽）">
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="机械与电力版本详细信息" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,45,23,15">
+        <TextBlock Margin="0,0,0,4"
+            Text="发行版本：Beta 0.3.0"/>
+        <TextBlock Margin="0,0,0,4"
+            Text="更新渠道：Beta预览渠道（公测渠道）"/>
+        <TextBlock Margin="0,0,0,4"
+            Text="Custom.xaml版本：Beta0.3.0"/>
+    </StackPanel>
+</local:MyCard>
+
