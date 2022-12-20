@@ -23,11 +23,11 @@
 <local:MyCard Title="机械与电力版本详细信息" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,45,23,15">
         <TextBlock Margin="0,0,0,4"
-            Text="发行版本：Beta 0.3.0"/>
+            Text="发行版本：Beta 0.1.0"/>
         <TextBlock Margin="0,0,0,4"
             Text="更新渠道：Beta预览渠道（公测渠道）"/>
         <TextBlock Margin="0,0,0,4"
-            Text="Custom.xaml版本：Beta0.3.0"/>
+            Text="Custom.xaml版本：Beta0.1.0"/>
     </StackPanel>
 </local:MyCard>
 
