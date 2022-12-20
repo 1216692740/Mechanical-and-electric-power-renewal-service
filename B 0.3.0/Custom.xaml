@@ -1,13 +1,3 @@
-﻿
-<local:MyCard Title="为什么主页加载这么慢？" Margin="0,0,0,15" CanSwap="True">
-    <StackPanel Margin="25,45,23,15">
-        <TextBlock Margin="0,0,0,4" TextWrapping="Wrap"
-            Text="目前主页自动更新服务托管在GitHub上（作者没钱买FTP站点，GitHub为国际社区），所以加载慢很正常。"/>
-        <TextBlock Margin="0,0,0,4" TextWrapping="Wrap"
-            Text="你可以在云盘下载最新的主页文件放在PCL文件夹中，然后按F12解锁全部选项，然后到-->设置-->个性化-->自定义主页中将联网更新修改为本地文件即可。"/>
-        <local:MyHint Text="如果这样做，你将无法接收主页更新" />
-    </StackPanel>
-</local:MyCard>
 
 <local:MyCard Title="LittleSkin登录帮助" Margin="0,0,0,15" CanSwap="True">
     <StackPanel Margin="25,45,23,15">
@@ -27,17 +17,6 @@
         <Image HorizontalAlignment="Center" Source="https://manual.littlesk.in/assets/img/input-player-name.9148e724.png" />
          <TextBlock Margin="0,0,0,4" TextWrapping="Wrap"
             Text="第三步：返回启动器，输入账号信息，点击启动游戏即可登录"/>
-    </StackPanel>
-</local:MyCard>
-
-<local:MyCard Title="服务器多人游戏" Margin="0,0,0,15" CanSwap="True">
-    <StackPanel Margin="25,40,23,15">
-        <local:MyButton Margin="0,8,0,10" Width="250" Height="35"
-                 Text="进入官方服务器" EventType="启动游戏" EventData="机械与电力|w38552s089.zicp.vip:42002" />
-        <local:MyButton Margin="0,8,0,10" Width="250" Height="35"
-                 Text="进入官方服务器（备用线路）" EventType="启动游戏" EventData="机械与电力|	mcrvr.e2.luyouxia.net:24758" />
-        <TextBlock Margin="0,0,0,4" TextWrapping="Wrap"
-                 Text="我们即将上线PCL联机线路（因为PCL联机线路的不稳定性，可能会鸽）"/>
     </StackPanel>
 </local:MyCard>
 
