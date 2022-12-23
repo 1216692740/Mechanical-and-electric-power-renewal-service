@@ -2,7 +2,7 @@
 <local:MyCard Title="LittleSkin登录帮助" Margin="0,0,0,15" CanSwap="True">
     <StackPanel Margin="25,45,23,15">
         <TextBlock Margin="0,0,0,4" TextWrapping="Wrap"
-            Text="使用LittleSkin登录登录验证是为了官方的多人服务器游戏所准备的，如果你加入了公测，你就可以在这个条目的下方看到服务器多人游戏了"/>
+            Text="使用LittleSkin登录登录验证是为了官方的多人服务器游戏所准备的（只是一个计划）下面是LittleSkin的注册教程"/>
         <TextBlock Margin="0,0,0,4" TextWrapping="Wrap"
             Text="第一步：点击启动器的注册账号按钮"/>
         <TextBlock Margin="0,0,0,4" TextWrapping="Wrap"
