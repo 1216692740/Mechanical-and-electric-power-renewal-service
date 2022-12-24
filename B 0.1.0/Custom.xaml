@@ -1,4 +1,17 @@
 
+<local:MyCard Title="0.1.1更新预告" Margin="0,0,0,15" CanSwap="True">
+    <StackPanel Margin="25,45,23,15">
+        <local:MyHint Margin="0,8,0,2" IsWarn="False" 
+            Text="注意，一下更新内容可能不会全部实现。"/>
+        <TextBlock Margin="0,0,0,4" TextWrapping="Wrap"
+            Text="1.开启官方服务器，添加语音系统（基于Plasmo Voice）"/>
+        <TextBlock Margin="0,0,0,4" TextWrapping="Wrap"
+            Text="2.开放官方服务端下载，位于GitHub"/>
+        <TextBlock Margin="0,0,0,4" TextWrapping="Wrap"
+            Text="3.添加“Applied Energistics 2”（应用能源2），“Just Enough Items”（JEI物品管理器），"FTB Library"等Mod"/>
+    </StackPanel>
+</local:MyCard>
+
 <local:MyCard Title="LittleSkin登录帮助" Margin="0,0,0,15" CanSwap="True">
     <StackPanel Margin="25,45,23,15">
         <TextBlock Margin="0,0,0,4" TextWrapping="Wrap"
