@@ -8,7 +8,7 @@
         <TextBlock Margin="0,0,0,4" TextWrapping="Wrap"
             Text="2.开放官方服务端下载，位于GitHub"/>
         <TextBlock Margin="0,0,0,4" TextWrapping="Wrap"
-            Text="3.添加“Applied Energistics 2”（应用能源2），“Just Enough Items”（JEI物品管理器），"FTB Library"等Mod"/>
+            Text="3.添加“Applied Energistics 2”（应用能源2），“Just Enough Items”（JEI物品管理器），“FTB Library”等Mod"/>
     </StackPanel>
 </local:MyCard>
 
