@@ -1,5 +1,5 @@
 
-<local:MyCard Title="0.1.1更新预告" Margin="0,0,0,15" CanSwap="True">
+<local:MyCard Title="0.2.0更新预告" Margin="0,0,0,15" CanSwap="True">
     <StackPanel Margin="25,45,23,15">
         <local:MyHint Margin="0,0,0,2" IsWarn="False" 
             Text="注意，一下更新内容可能不会全部实现。"/>
