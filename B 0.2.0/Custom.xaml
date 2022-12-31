@@ -3,6 +3,8 @@
     <StackPanel Margin="25,45,23,15">
         <local:MyButton Margin="0,8,0,10" Width="250" Height="35"
             Text="进入官方服务器" EventType="启动游戏" EventData="机械与电力0.2.0|nj.plane.hope-now.top:35040" />
+        <TextBlock Margin="0,0,0,4" TextWrapping="Wrap"
+            Text="该服务器使用了希望云面板提供的免费服务器，故为删档测试。">
     </StackPanel>
 </local:MyCard>
 
